@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 5%);
+    color: white;
+}
+#headline{
+    font-size: 64px;
+    color: hsl(0, 0%, 25%);
+}
+#container{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 5px solid;
+    border-radius: 25px;
+    background-color: white;
+}
+#display{
+    font-size: 64px;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(0, 0%, 30%);
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+    margin-bottom: 25px;
+}
+#controls button{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+#roll{
+    background-color: hsl(200, 100%, 40%);
+}
+#roll:hover{
+    background-color: hsl(200, 100%, 50%);
+}
+
+
+
+#dicelabel{
+    font-size: 24px;
+}
+
+select{
+    
+    padding: 5px 10px;
+    border-radius:5px;
+  }
+  
+  select:focus{
+    outline:none;
+  }
